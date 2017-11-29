@@ -1,0 +1,51 @@
+Everything before the first section keyword is considered to be a comment.
+
+With the new input format, the sections -ENZREV, -ENZIRREV and -METINT
+are redundant: Undeclared metabolites will be automatically considered
+as internal. Undeclared reactions are also added to the system and their
+reversibility is derived from the separator (=, => , <=) between the two
+sides of the reaction equation.
+
+You can safely delete the text from here..............
+
+-ENZREV
+# After the first keyword, comments have to start with a '#'
+Eno Acn SucCD Sdh Fum Mdh AspC Gdh IlvEAvtA
+
+-ENZIRREV
+Pyk AceEF GltA Icd SucAB Icl Mas AspCon AspA Pck Ppc Pps GluCon AlaCon SucCoACon
+
+-METINT
+Ala Asp Glu Gly Mal Fum Succ SucCoA OG IsoCit Cit OAA AcCoA CoA Pyr PEP
+
+# .................to here. However, external metabolites still need
+# to be explicitly declared.
+
+-METEXT
+Sucex Alaex Gluex ADP ATP AMP NH3 Aspex FADH2 FAD NADPH NADP NADH CO2 NAD PG
+
+-CAT
+Eno : PG = PEP
+Acn : Cit = IsoCit
+SucCD : SucCoA + ADP = Succ + ATP + CoA
+Sdh : Succ + FAD = Fum + FADH2
+Fum : Fum = Mal
+Mdh : Mal + NAD = OAA + NADH
+AspC : OAA + Glu = Asp + OG
+Gdh : OG + NH3 + NADPH = Glu + NADP
+IlvEAvtA : Pyr + Glu = Ala + OG
+Pyk : PEP + ADP => Pyr + ATP
+AceEF : Pyr + NAD + CoA => AcCoA + CO2 + NADH
+GltA : OAA + AcCoA => Cit + CoA
+Icd : IsoCit + NADP => OG + CO2 + NADPH
+SucAB : OG + NAD + CoA => SucCoA + CO2 + NADH
+Icl : IsoCit => Succ + Gly
+Mas : Gly + AcCoA => Mal + CoA
+AspCon : Asp => Aspex
+AspA : Asp => Fum + NH3
+Pck : OAA + ATP => PEP + ADP + CO2
+Ppc : PEP + CO2 => OAA
+Pps : Pyr + ATP => PEP + AMP
+GluCon : Glu => Gluex
+AlaCon : Ala => Alaex
+SucCoACon : SucCoA => Sucex + CoA
