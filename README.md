@@ -1,2 +1,2 @@
 # aumic
-AUtomated Metabolic modeling tool Incorporating the Cybernetic approach
+Automated tool for metabolic modeling integrated with the cybernetic regulatory mechanisms
