@@ -1,2 +1,2 @@
 # AUMIC
-AUtomated tool for Netabolic modeling Integrated with the Cybernetic regulatory mechanisms
+AUtomated tool for Metabolic modeling Integrated with the Cybernetic regulatory mechanisms
