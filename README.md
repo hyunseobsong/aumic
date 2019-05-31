@@ -1,4 +1,4 @@
-## MATLAB Toolbox for the Cybernetic Modeling and More
+# AUMIC: MATLAB Toolbox for the Cybernetic Modeling and More
 Hyun-Seob Song<sup>1</sup> and Doraiswami Ramkrishna<sup>2</sup> 
 
 <sup>1</sup> Biological Sciences Division, Pacific Northwest National Laboratory, Richland, WA 99352  
