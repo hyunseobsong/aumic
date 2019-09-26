@@ -1,7 +1,7 @@
 # AUMIC: MATLAB Toolbox for the Cybernetic Modeling and More
 Hyun-Seob Song<sup>1</sup> and Doraiswami Ramkrishna<sup>2</sup> 
 
-<sup>1</sup> Biological Sciences Division, Pacific Northwest National Laboratory, Richland, WA 99352  
+<sup>1</sup> Biological Systems Engineering, Food Science and Technology, University of Nebraska-Lincoln, Lincoln, NE 68516  
 <sup>2</sup> Davidson School of Chemical Engineering, Purdue University, West Lafayette, IN 47907
 
 We introduce a new tool for dynamic metabolic modeling – AUMIC (AUtomated tool for Metabolic modeling Integrated with the Cybernetic regulatory mechanisms)! 
